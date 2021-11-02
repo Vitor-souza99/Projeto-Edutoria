@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden ;
+}
+
+
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: inline-flex;
+    position: absolute;
+}
+
+.image-brand{
+    height: 10vh;
+    width: 14%;
+    position: relative;
+    left: 10%;
+    overflow-y: hidden ;
+}
+
+.image-brand img{
+   height:100%;
+   width:100%;
+   top: 12%;
+    lef: 75%;
+    position: relative;
+}
+
+.navlink{
+    height: 10vh;
+    width: 60%;
+    position: relative;
+    left:26%;
+    display: inline-flex;
+}
+
+.link{
+    width: 16%;
+    height: 10vh;
+    position: relative;
+}
+
+.link a{
+   left: 35%;
+   top: 6vh;
+   position: relative;
+   font-family: Arial;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.ret-laranja{
+     width: 28%;
+    height: 2vh;
+    left: 30%;
+    position: relative;
+    top: 0.5vh;
+    background-color: orange
+}
+
+.ret-amarelo{
+    width: 35%;
+    height: 2vh;
+    position: relative;
+    left: 35%;
+    top: 0.5vh;
+    background-color: yellow;
+}
+
+.container{
+    width: 92%;
+    height: 65vh;
+    position: relative;
+    left: 4%;
+}
+
+.container img{
+    width: 80%;
+    height: 65vh;
+    position: absolute;
+    left: 10%;
+}
+
+.triangulo{
+   border-bottom: 19px solid transparent;
+   border-left: 19px solid transparent ;
+   border-top: 19px yellow solid;
+   border-right: 19px yellow solid;
+    position: relative;
+    width: 3%;
+    height: 5vh;
+    z-index: 1;
+    left: 87%;
+}
+
+.aprendizagem-online{
+    height: 35vh;
+    width: 20%;
+    position: relative;
+    left: 65%;
+    top: 10%;
+}
+
+.aprendizagem-online span{
+    position: relative;
+    left: 7%;
+    top: 5vh;
+}
+
+.nomes1{
+    color: #636250;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.nomes2{
+    color: #f17e00;
+    left: 45%;
+    position: relative;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+/* class botão*/
+.acessar{
+    background-color: #ded317;
+    
+    border-radius: 15px;
+    color: yellow;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    left: 51%;
+    position: relative;
+    top: 26%;
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+  background-image: linear-gradient(180deg, yellow, #333105);
+}
+
+.acessar:hover{
+    background: orange;
+    transition: background 0.3s;
+}
+
+.acessar:active{
+    background: red;
+}
+
+
+
+.acessar p{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.container-3textos{
+    width: 74%;
+    height: 56vh;
+    position: relative;
+    left: 13%;
+    display: inline-flex;
+}
+
+.text{
+    height: 56vh;
+    width: 34%;
+    position: relative;
+}
+
+.text h3{
+    position: relative;
+    left: 12%;
+    top: 6%;
+    font-family: Arial;
+    color: #56514d;
+}
+
+.text p{
+    position: relative;
+    top: 13%;
+    left: 2%;
+    color: #56514d;
+    font-family: Arial;
+
+}
+
+.text-button{
+    background-color: black; 
+  border: none;
+  color: white;
+  padding: 9px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: relative;
+  top: 15vh;
+  left: 34%;
+}
+
+.text-button p{
+    color: white;
+}
+
+.rodape{
+    background-color: yellow;
+    width: 74%;
+    height: 9vh;
+    position: relative;
+    left: 13%;
+}
+
+.rodape p{
+    position: relative;
+    left: 83%;
+    top: 30%;
+    font-family: Arial;
+    font-weight: bold;
+}
